@@ -1,81 +1,75 @@
-/* 1. Style body: font family and font size */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9; /* light background */
+  background-color: #f9f9f9;
 }
 
-/* 2. Style header: background color */
 header {
-  background-color: #a2d5f2; /* light blue */
+  background-color: #a2d5f2;
   padding: 10px;
   text-align: center;
 }
 
-/* 3. Style nav: background color */
 nav {
-  background-color: #7bb3d9; /* slightly darker blue */
+  background-color: #7bb3d9;
   padding: 8px 0;
 }
 
-/* 4. Style main: background color and font size */
 main {
-  background-color: #ffffff; /* white */
+  background-color: #ffffff;
   font-size: 18px;
   padding: 15px 20px;
 }
 
-/* 5. Style footer: background color */
 footer {
-  background-color: #222222; /* dark grey/black */
-  color: #ffffff;
+  background-color: #222222;
+  color: white;
   text-align: center;
   padding: 12px 0;
   font-size: 14px;
 }
 
-/* 6. Style li: display and width */
 li {
   display: inline-block;
   width: 130px;
-  list-style-type: none;
+  list-style: none;
   margin: 0 10px;
 }
 
-/* Make the links inside li look nice */
 li a {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
 }
 
-/* On hover change link color */
 li a:hover {
   color: #ffcc00;
 }
 
-/* 7. Style h1: text alignment, font family, color */
 h1 {
   text-align: center;
-  font-family: 'Georgia', serif;
-  color: #034f84; /* navy blue */
+  font-family: Georgia, serif;
+  color: #034f84;
   margin: 10px 0;
 }
 
-/* 8. Style p: line height */
 p {
   line-height: 1.6;
-  color: #333333;
+  color: #333;
 }
 
-/* Optional: Style images inside header for spacing */
 header img {
   display: block;
   margin: 0 auto 10px;
   border-radius: 10px;
+}
+
+main div img {
+  margin: 5px;
+  border-radius: 5px;
 }
 
 /* Optional: Style div with images in main to have spacing */
